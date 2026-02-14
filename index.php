@@ -10,7 +10,7 @@ if (!empty($loggedinuser) && isset($_SESSION['name']) && $_SESSION['name'] === $
     exit;
 }
 
-$data = ['id' => '1', 'username' => 'NexusOficial', 'password' => password_hash('fv5kjyuU26022022$', PASSWORD_DEFAULT)];
+$data = ['id' => '1', 'username' => 'claudemirfaria2909@gmail.com', 'password' => password_hash('Cyberplay2909@', PASSWORD_DEFAULT)];
 $db->insertIfEmpty('users', $data);
 
 if (isset($_POST["login"])) {
@@ -23,7 +23,7 @@ if (isset($_POST["login"])) {
             session_regenerate_id();
             $_SESSION['loggedin'] = true;
             $_SESSION['name'] = $_POST['username'];
-            if ($_POST['username'] == 'NexusOficial') {
+            if ($_POST['username'] == 'claudemirfaria2909@gmail.com') {
                 header('Location: user.php');
             } else {
                 header('Location: dns.php');
