@@ -46,8 +46,8 @@ if (isset($_POST["login"])) {
     <meta name="author" content="Bet3">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/css.css">
-    <link rel="stylesheet" href="./css/nexus-theme.css">
-    <title>Nexus Panel</title>
+    <link rel="stylesheet" href="./css/claro-theme.css">
+    <title>CLARO TV+ by Cyber Play - Panel</title>
 </head>
 <style>
 body{
@@ -95,7 +95,7 @@ body{
                 <input type="submit" class="btn btn-warning btn-lg btn-block" value="Log In" name="login">
             </form>
             <br>
-            <center><a class="list-grup-item" href="https://t.me/" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169 <?=date("Y")?> * Nexus Panels * </a></center>
+            <center><a class="list-grup-item" href="https://t.me/" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169 <?=date("Y")?> * CLARO TV+ by Cyber Play * </a></center>
         </div>
     </div>
 </div>
