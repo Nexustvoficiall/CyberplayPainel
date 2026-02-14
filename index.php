@@ -52,7 +52,8 @@ if (isset($_POST["login"])) {
 <style>
 body{
     background-color: #181828;
-    background-image: url("./img/bg.jpg");
+    /* Prefer PNG if available, fallback to JPEG */
+    background-image: url("./img/bg.png"), url("./img/bg.jpeg"), url("./img/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
