@@ -23,11 +23,7 @@ if (isset($_POST["login"])) {
             session_regenerate_id();
             $_SESSION['loggedin'] = true;
             $_SESSION['name'] = $_POST['username'];
-            if ($_POST['username'] == 'claudemirfaria2909@gmail.com') {
-                header('Location: user.php');
-            } else {
-                header('Location: dns.php');
-            }
+            header('Location: dns.php');
         } else {
             header('Location: ./api/index.php');
         }
